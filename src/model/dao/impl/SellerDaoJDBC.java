@@ -183,8 +183,6 @@ public class SellerDaoJDBC implements SellerDao {
 		return dep;
 	}
 
-	
-	
 	@Override
 	public List<Seller> findAll() {
 		PreparedStatement st = null;
